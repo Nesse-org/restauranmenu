@@ -1,0 +1,78 @@
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: #f5f5f5;
+    font-size: 14px;
+  }
+  
+  .promo {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .change {
+    color: orange;
+    cursor: pointer;
+  }
+  
+  .cart {
+    background: #22c55e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    background: orange;
+    color: black;
+    padding: 2px 5px;
+    margin-left: 5px;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .navLinks li {
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+  
+  .active {
+    background: orange;
+    color: white;
+  }
+  
+  .login {
+    background: #0a0f2c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
