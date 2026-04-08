@@ -76,3 +76,32 @@
     border-radius: 25px;
     cursor: pointer;
   }
+  .navLinks {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* 🔥 LINKNI BUTTONGA O‘XSHATAMIZ */
+  .link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: black;
+    transition: 0.3s;
+    font-weight: 500;
+  }
+  
+  /* 🔥 HOVER */
+  .link:hover {
+    background: orange;
+    color: white;
+  }
+  
+  /* 🔥 ACTIVE (qaysi page ochiq bo‘lsa) */
+  .active {
+    background: orange;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+  }

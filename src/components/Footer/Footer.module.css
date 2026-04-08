@@ -1,0 +1,130 @@
+.footer {
+    background: #f4f4f4;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background: #ff8c00;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .stats h2 {
+    margin: 0;
+    font-size: 26px;
+  }
+  
+  .stats p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+    .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left {
+    max-width: 250px;
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    background: black;
+    color: white;
+    padding: 2px 6px;
+    margin-left: 5px;
+  }
+  
+  .apps img {
+    width: 120px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .company {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* CENTER */
+  .center {
+    max-width: 300px;
+  }
+  
+  .subscribe {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .subscribe input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .subscribe button {
+    background: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+  }
+  
+  .note {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .socials {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+  }
+  
+  .right {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .right h4 {
+    margin-bottom: 10px;
+  }
+  
+  .right p {
+    margin: 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .bottom {
+    background: #0b0f2a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .bottom div {
+    display: flex;
+    gap: 15px;
+  }

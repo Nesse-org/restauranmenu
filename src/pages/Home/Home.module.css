@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 28px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.categories button {
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.categories button:hover {
+  background: orange;
+  color: white;
+}
+
+.sectionImg {
+  display: flex;
+  gap: 20px;
+}
+
+.sectionImg img {
+  width: 30%;
+  height: 325px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #0b1d3a, #122b55);
+  color: white;
+  padding: 35px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+
+.rating {
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.smallImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #0b1d3a, #122b55);
+  color: white;
+  padding: 35px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.rating {
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.smallImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px 0;
+}
