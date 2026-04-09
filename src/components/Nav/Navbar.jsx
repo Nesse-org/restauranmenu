@@ -17,9 +17,7 @@ function Navbar() {
             <span className={styles.change}>Change Location</span>
           </span>
 
-          <div className={styles.cart}>
-            🛒 23 Items | GBP 79.89 ⬇️
-          </div>
+            <button className={styles.cart} onClick={styles}>🛒 23 Items | GBP 79.89 ⬇️ </button>
         </div>
       </div>
 
@@ -34,6 +32,13 @@ function Navbar() {
           <NavLink to="/restaurant" className={({ isActive }) => isActive ? styles.active : styles.link}>Restaurants</NavLink>
           <NavLink to="/TrackOrder" className={({ isActive }) => isActive ? styles.active : styles.link}>Track Order</NavLink>
         </div>
+=======
+        <ul className={styles.navLinks}>
+          <li>Home</li>
+          <li>Special Offers</li>
+          <li className={styles.active}>Restaurants</li>
+          <li>Track Order</li>
+        </ul>
 
         <button className={styles.login}>Login/Signup</button>
       </nav>

@@ -1,18 +1,69 @@
+
 import { Routes, Route } from "react-router-dom";
 import Hero from "./pages/Home/Home";
 import Restaurant from "./pages/Restaurant/Restaurant";
 import SpecialOffers from "./pages/SpecialOffers/SpecialOffers";
 import TrackOrder from "./pages/TrackOrder/TrackOrder";
+import Header from "./components/Nav/Navbar";
+import Banner from "./components/Banner";
+import Search from "./components/Search";
+import Categories from "./components/Categories";
+import Offers from "./components/Offers";
+import Section from "./components/Section";
+import "./App.css";
+
+
+
+
 
 
 function App() {
-  return (
+  const burgers = [
     <Routes>
       <Route path="/" element={<Hero />} />
       <Route path="/restaurant" element={<Restaurant />} />
       <Route path="/SpecialOffers" element={<SpecialOffers />} />
       <Route path="/TrackOrder" element={<TrackOrder />} />
-    </Routes>
+    </Routes>,
+  
+  { id: 1, name: "The classics for 3", price: "GBP 5.10", image: "src/assets/Rectangle 46.png" },
+    { id: 2, name: "The classics for 3", price: "GBP 3.10", image: "src/assets/Rectangle 46.png" },
+    { id: 3, name: "The classics for 3", price: "GBP 6.50", image: "src/assets/Rectangle 46.png" },
+    { id: 4, name: "The classics for 3", price: "GBP 4.20", image: "src/assets/Rectangle 46.png" },
+    { id: 5, name: "The classics for 3", price: "GBP 5.80", image: "src/assets/Rectangle 46.png" },
+    { id: 6, name: "The classics for 3", price: "GBP 4.90", image: "src/assets/Rectangle 46.png" }
+  ];
+
+  const fries = [
+    { id: 1, name: "The classics for 3", price: "GBP 2.00", image: "src/assets/Rectangle 46 (1).png" },
+    { id: 2, name: "The classics for 3", price: "GBP 2.50", image: "src/assets/Rectangle 46 (1).png" },
+    { id: 3, name: "The classics for 3", price: "GBP 3.00", image: "src/assets/Rectangle 46 (1).png" },
+    { id: 4, name: "The classics for 3", price: "GBP 3.50", image: "src/assets/Rectangle 46 (1).png" },
+    { id: 5, name: "The classics for 3", price: "GBP 3.20", image: "src/assets/Rectangle 46 (1).png" },
+    { id: 6, name: "The classics for 3", price: "GBP 4.00", image: "src/assets/Rectangle 46 (1).png" }
+  ];
+
+  const drinks = [
+    { id: 1, name: "The classics for 3", price: "GBP 1.50", image: "src/assets/Rectangle 46 (3).png" },
+    { id: 2, name: "The classics for 3", price: "GBP 1.50", image: "src/assets/Rectangle 46 (5).png" },
+    { id: 3, name: "The classics for 3", price: "GBP 1.50", image: "src/assets/Rectangle 46 (2).png" },
+    { id: 4, name: "The classics for 3", price: "GBP 2.50", image: "src/assets/Rectangle 46 (6).png" },
+    { id: 5, name: "The classics for 3", price: "GBP 2.00", image: "src/assets/Rectangle 46 (7).png" },
+    { id: 6, name: "The classics for 3", price: "GBP 1.20", image: "src/assets/Rectangle 46 (2).png" }
+  ];
+
+  return (
+    <div>
+      <Header />
+      <Banner />
+      <Search />
+      <Categories />
+      <Offers />
+
+      <Section title="Burgers" products={burgers} />
+      <Section title="Fries" products={fries} />
+      <Section title="Cold Drinks" products={drinks} />
+    </div>
   );
 }
 
