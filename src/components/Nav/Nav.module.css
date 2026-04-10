@@ -6,7 +6,10 @@
     background: #f5f5f5;
     font-size: 14px;
   }
-  
+  .login{
+    text-decoration: none;
+  }
+
   .promo {
     color: orange;
     font-weight: bold;

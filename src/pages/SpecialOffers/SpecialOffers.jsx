@@ -3,7 +3,7 @@ import Navbar from '../../components/Nav/Navbar'
 
 function SpecialOffers() {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
 
 

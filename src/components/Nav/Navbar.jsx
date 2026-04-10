@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Nav.module.css";
-import { NavLink } from "react-router-dom"; // 🔥 NavLink ishlatamiz
+import { NavLink } from "react-router-dom"; 
 
 function Navbar() {
   return (
@@ -35,7 +35,7 @@ function Navbar() {
           <NavLink to="/TrackOrder" className={({ isActive }) => isActive ? styles.active : styles.link}>Track Order</NavLink>
         </div>
 
-        <button className={styles.login}>Login/Signup</button>
+        <NavLink to="/Signup" className={styles.login}>Sign Up</NavLink>
       </nav>
     </>
   );

@@ -3,7 +3,7 @@ import Navbar from '../../components/Nav/Navbar'
 
 function TrackOrder() {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
 
 
