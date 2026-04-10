@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./Nav.module.css";
-import { NavLink } from "react-router-dom"; // 🔥 NavLink ishlatamiz
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
+   
+   
       <div className={styles.topBar}>
         <div>
           ⭐️ Get 5% Off your first order,{" "}
